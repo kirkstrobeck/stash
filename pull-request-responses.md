@@ -12,6 +12,4 @@ Here are some resources (disclaimer: I haven’t seen/read all of everything bel
 - https://writingjavascript.com/why-you-should-always-use-undefined-and-never-null
 - https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/
 
-Note: A common exception is a `JSX` empty return, which must be `null`
-
 [No `null`](https://github.com/kirkstrobeck/stash/blob/main/pull-request-responses.md#no-null)
