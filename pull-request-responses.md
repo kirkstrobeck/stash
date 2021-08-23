@@ -1,6 +1,6 @@
 ## No `null`
 
-Let’s avoid `null` and instead use the implicit `undefined` or, if needed, an explicit `undefined`. _[cite](https://github.com/kirkstrobeck/stash/blob/main/pull-request-responses.md#no-null)_
+Let’s avoid `null` and instead use the implicit `undefined` or, if needed, an explicit `undefined`.
 
 `typeof null === 'object'`, `typeof undefined === 'undefined'`. `null` behaves in so many different ways, so it increases complexity because it’s not nothing, it’s a thing similar to nothing.
 
@@ -13,3 +13,5 @@ Here are some resources (disclaimer: I haven’t seen/read all of everything bel
 - https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/
 
 Note: A common exception is a `JSX` empty return, which must be `null`
+
+_[cite](https://github.com/kirkstrobeck/stash/blob/main/pull-request-responses.md#no-null)_
