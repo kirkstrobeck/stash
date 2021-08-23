@@ -14,4 +14,4 @@ Here are some resources (disclaimer: I haven’t seen/read all of everything bel
 
 Note: A common exception is a `JSX` empty return, which must be `null`
 
-[cite](https://github.com/kirkstrobeck/stash/blob/main/pull-request-responses.md#no-null)
+[No `null`](https://github.com/kirkstrobeck/stash/blob/main/pull-request-responses.md#no-null)
