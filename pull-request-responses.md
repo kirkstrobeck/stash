@@ -1,6 +1,6 @@
 ## No `null`
 
-Let’s avoid `null` and instead use the implicit `undefined` or, if needed, an explicit `undefined`.
+Let’s avoid `null` and instead use implicit `undefined` or, if needed, an explicit `undefined`.
 
 `typeof null === 'object'`, `typeof undefined === 'undefined'`. `null` behaves in so many different ways, so it increases complexity because it’s not nothing, it’s a thing similar to nothing.
 
