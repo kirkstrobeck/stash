@@ -30,4 +30,4 @@ return <Fail />;
 
 1. It avoids an unnecessary closure (if using `else`)
 
-[Reference](https://github.com/kirkstrobeck/stash/blob/main/style-guide/no-as.md)
+[Reference](https://github.com/kirkstrobeck/stash/blob/main/style-guide/avoid-else.md)
