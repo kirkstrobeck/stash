@@ -1,12 +1,12 @@
 # No `null`
 
-Let’s not use `null`.
+Let’s not use `null`
 
 ## Instead
 
-1. Use implicit `undefined` or, if needed, an explicit `undefined`.
+1. Use implicit `undefined` or, if needed, an explicit `undefined`
 
-1. `typeof null === 'object'`, `typeof undefined === 'undefined'`. `null` behaves in different ways, so it increases complexity because it’s not nothing, but similar to nothing.
+1. `typeof null === 'object'`, `typeof undefined === 'undefined'`. `null` behaves in different ways, so it increases complexity because it’s not nothing, but similar to nothing
 
 ## Links
 
