@@ -10,7 +10,7 @@ Let’s not use `else` here (or `:` if ternary)
 
 ## Example
 
-```ts
+```tsx
 // no
 return isAllGood ? <GoldenTicket /> : <Fail />;
 
