@@ -16,7 +16,7 @@ If you have a thing that introduces uncertainty and you see that it’s churning
 
 1. Reduces complexity
 
-1. Solves the probelem in the right place
+1. Solves the problem in the right place
 
 1. Less code coverage work and potential deficit
 

@@ -58,6 +58,6 @@ console.log(bState); // b:true
 
 1. Mutation is the sneakiest code possible and is responsible for manifesting errors and complexity
 
-1. Avoiding mutation is ideal; Programatically is best, by convention is second best
+1. Avoiding mutation is ideal; Programmatically is best, by convention is second best
 
 [Reference](https://github.com/kirkstrobeck/stash/blob/main/style-guide/no-mutation.md)

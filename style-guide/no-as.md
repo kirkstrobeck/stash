@@ -16,4 +16,8 @@ Let’s not use `as` if at all possible, which is most of the time
 
 1. Since you’re overriding the compiler, places where we use `as` are some of the most likely places we’ll find bugs in the future; Hard to find bugs, too, because the compiler can’t help us
 
+## Notes
+
+`types` > `as` > `ts-ignore`
+
 [Reference](https://github.com/kirkstrobeck/stash/blob/main/style-guide/no-as.md)
