@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+BRANCH=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+DEFAULT_BRANCH=$(get-default-branch)
+
+git checkout $DEFAULT_BRANCH && \
+git pull && \
+git checkout $BRANCH && \
+git rebase $DEFAULT_BRANCH

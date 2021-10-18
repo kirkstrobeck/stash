@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DEFAULT_BRANCH=$(get-default-branch)
+
+git checkout $DEFAULT_BRANCH && \
+git pull && \
+git checkout -b "feature-$(date +%s)"
