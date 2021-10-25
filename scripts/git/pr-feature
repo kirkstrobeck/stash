@@ -2,5 +2,4 @@
 
 git push && \
 gh pr create --fill --draft && \
-gh pr view --web && \
-new-feature-branch
+gh pr view --web
