@@ -1,5 +1,5 @@
 #!/bin/bash
 
-git push && \
+git push -u origin HEAD && \
 gh pr create --fill --draft && \
 gh pr view --web
