@@ -6,5 +6,6 @@ DEFAULT_BRANCH=$(get-default-branch)
 
 git checkout $DEFAULT_BRANCH && \
 git pull && \
+git prune && \
 git checkout $BRANCH && \
 git rebase $DEFAULT_BRANCH
