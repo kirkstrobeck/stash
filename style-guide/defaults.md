@@ -9,4 +9,3 @@ Defaults, `undefined`, `null`, `''` etc. are amazing; use them
 1. Less to grok; Tell me what’s meaningful about your implementation by omitting the noise. If I see ten things and half of them are defaults, I still need to review all ten .. better to update the ones that make this thing unique
 
 [Reference](https://github.com/kirkstrobeck/stash/blob/main/style-guide/defaults.md)
-'
