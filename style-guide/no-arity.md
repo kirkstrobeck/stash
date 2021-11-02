@@ -10,7 +10,7 @@ Use one object parameter
 
 1. The API can change over time without introducing any implementation overhead
 
-1. Folks don’t need to use a placeholder value to specify a later value; e.g. `thing(undefined, undefined, true)`
+1. Folks don’t need to use a placeholder value to specify a later value; e.g., `thing(undefined, undefined, true)`
 
 ## Example
 
