@@ -1,6 +1,6 @@
 # Make `booleans` optional
 
-Let’s make `booleans` optional if at all possible, which is all of the time
+Let’s make `booleans` optional if at all possible, which should be all of the time
 
 ## How?
 
