@@ -1,6 +1,6 @@
 # Avoid `else`
 
-Let’s not use `else` here (or `:` if ternary)
+Let’s avoid `else` (or `:` if ternary) if at all possible, which is most of the time
 
 ## Instead
 
