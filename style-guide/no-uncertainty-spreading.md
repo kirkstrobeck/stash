@@ -21,4 +21,3 @@ If you have a thing that introduces uncertainty and you see that it’s churning
 1. Less code coverage work and potential deficit
 
 [Reference](https://github.com/kirkstrobeck/stash/blob/main/style-guide/no-uncertainty-spreading.md)
-'
