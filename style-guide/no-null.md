@@ -8,6 +8,8 @@ Let’s not use `null`
 
 1. `typeof null === 'object'`, `typeof undefined === 'undefined'`. `null` behaves in different ways, so it increases complexity because it’s not nothing, but similar to nothing
 
+1. If you need to `return null` to empty render in React, instead use `return <></>`
+
 ## Links
 
 (disclaimer: I haven’t seen/read all of everything below):
