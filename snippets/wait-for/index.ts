@@ -1,11 +1,11 @@
-const base = (
-  condition: () => any,
+const base = <T>(
+  condition: () => T,
   {
     attemptsMax = 500,
   }: {
     attemptsMax?: number;
   } = {},
-) =>
+): Promise<T> =>
   new Promise((resolve, reject) => {
     const result = condition();
     if (result) resolve(result);
