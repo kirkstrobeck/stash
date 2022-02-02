@@ -10,7 +10,7 @@ const base = (
     const result = condition();
     if (result) resolve(result);
 
-    let attempts = 0;
+    let attempts = 1;
 
     const interval = window.setInterval(() => {
       const intervalResult = condition();
