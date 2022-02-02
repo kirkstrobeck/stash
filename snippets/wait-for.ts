@@ -1,6 +1,4 @@
-import { debugLog } from 'root/src/utils/logger';
-
-const waitFor = (fn: Function, note?: string) =>
+const base = (fn: Function, note?: string) =>
   new Promise((resolve) => {
     const result = fn();
     if (result) resolve(result);
@@ -20,4 +18,4 @@ const waitFor = (fn: Function, note?: string) =>
     }, 100);
   });
 
-export default waitFor;
+export default base;
