@@ -4,7 +4,9 @@ Let’s avoid arity for function inputs if at all possible, which is most of the
 
 ## Instead
 
-Use one object parameter
+1. Use one object literal parameter
+
+2. In some rare cases it can make sense to have an always-required param or two with an object literal for extras.
 
 ## Why?
 
