@@ -1,6 +1,8 @@
 # `waitFor` must `return` a condition
 
-Wrapping in `waitFor` is not sufficient; it needs to `return` a condition, so it knows if it’s passing or not
+Wrapping an `expect` inside a `waitFor` is not sufficient; it needs to `return` a condition, so it knows if it’s passing or not
+
+See https://testing-library.com/docs/dom-testing-library/api-async/#waitfor
 
 ## Example
 
