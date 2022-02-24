@@ -10,11 +10,11 @@ Let’s not use `as` if at all possible, which is most of the time
 
 ## Why?
 
-1. The TypeScript compiler knows best. If I handed you a `cat as Dog`, I’m pretty sure you would know it’s still a cat; In other words, we don’t know best, but TypeScript does and with programmatic accuracy
+1. The TypeScript compiler knows best. If I handed you a `cat as Dog`, it’s still a cat; In other words, we don’t know best, but TypeScript does and with programmatic accuracy
 
-1. It might seem like a gentle type change, but you are actually forcefully overriding the compiler
+1. It might seem like a gentle type change, but it’s actually forcefully overriding the compiler
 
-1. Since you’re overriding the compiler, places where we use `as` are some of the most likely places we’ll find bugs in the future; Hard to find bugs, too, because the compiler can’t help us
+1. Since it’s overriding the compiler, places where we use `as` are some of the most likely places we’ll find bugs in the future; Hard to find bugs, too, because the compiler can’t help us
 
 ## Notes
 
