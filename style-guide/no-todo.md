@@ -8,7 +8,7 @@ Let’s not add `TODO`s or comment out code for later
 
 1. Delete the code
 
-Bonus: You can create a persistent code reference to a distinct point in time with a permaLink. For example, in GitHub, make sure the SHA is in the URL, like https://github.com/facebook/react/blob/e23673b511a2eab6ddcb848a4150105c954f289a/fixtures/flight/src/App.server.js#L18-L22 – You also have the rich context of the entire codebase at that point in time
+Bonus: You can create a persistent code reference to a distinct point in time with a permaLink. For example, in GitHub, make sure the SHA is in the URL, like [this](https://github.com/facebook/react/blob/e23673b511a2eab6ddcb848a4150105c954f289a/fixtures/flight/src/App.server.js#L18-L22) – You also have the rich context of the entire codebase at that point in time
 
 ## Why
 
