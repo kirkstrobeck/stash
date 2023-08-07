@@ -4,9 +4,9 @@ Don’t have warnings. Warnings don’t make sense. A thing is either an error o
 
 ## Instead
 
-1. If a warning is meaningful then it should be an error, so that it must be addressed
+1. If a warning is meaningful, then it should be an error, so that it must be addressed
 
-2. If a warning is not meaningful then it should be ignored, otherwise it is noise
+2. If a warning is not meaningful, then it should be ignored, otherwise it is noise
 
 ## Why?
 
