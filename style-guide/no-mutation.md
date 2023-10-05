@@ -50,7 +50,6 @@ console.log(aState); // a: true
 
 const bState = updateState(globalState, { b: true });
 
-// Oi! MUTATION!
 console.log(bState); // b:true
 ```
 
