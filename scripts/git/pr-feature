@@ -1,5 +1,19 @@
 #!/bin/bash
 
-git push -u origin HEAD && \
-gh pr create --fill --draft && \
+# Push to origin
+git push -u origin HEAD
+
+# Try to create a draft PR, capturing stderr
+error_message=$(gh pr create --fill --draft 2>&1)
+
+# Check exit status
+if [ $? -ne 0 ]; then
+  # If draft PR creation fails, create a non-draft PR
+  gh pr create --fill
+else
+  # If successful, display the original message
+  echo "$error_message"
+fi
+
+# Open the PR in a web view
 gh pr view --web
