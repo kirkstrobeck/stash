@@ -1,15 +1,47 @@
 #!/bin/bash
 
+# Usage: 
+# ./script_name.sh                     (default behavior)
+# ./script_name.sh -b target_branch    (specifies target branch for PR)
+
+# Initialize variable for target branch
+target_branch=""
+
+# Check if a flag for target branch is provided
+while getopts ":b:" opt; do
+  case $opt in
+    b)
+      target_branch=$OPTARG
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
+  esac
+done
+
 # Push to origin
 git push -u origin HEAD
 
-# Try to create a draft PR, capturing stderr
-error_message=$(gh pr create --fill --draft 2>&1)
+# Command for creating PR
+pr_command="gh pr create --fill"
+
+# Add --draft if you want a draft PR
+pr_command+=" --draft"
+
+# Add target branch if specified
+[ -n "$target_branch" ] && pr_command+=" -B $target_branch"
+
+# Try to create a PR, capturing stderr
+error_message=$($pr_command 2>&1)
 
 # Check exit status
 if [ $? -ne 0 ]; then
-  # If draft PR creation fails, create a non-draft PR
-  gh pr create --fill
+  # Remove --draft for non-draft PR
+  pr_command=${pr_command/--draft/}
+  
+  # Create a non-draft PR
+  $pr_command
 else
   # If successful, display the original message
   echo "$error_message"
