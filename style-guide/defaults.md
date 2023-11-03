@@ -1,6 +1,6 @@
 # Defaults
 
-Defaults, `undefined`, `null`, `''` etc. are amazing; use them
+Defaults are amazing; use them. Specify as little as possible.
 
 ## Why?
 
