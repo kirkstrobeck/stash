@@ -1,4 +1,4 @@
-# No index-only
+# No index-only (barrel) files
 
 Let’s avoid using `index` as a rollup of the folder contents
 
