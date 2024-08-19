@@ -7,7 +7,7 @@ For us to be effective, we must focus on the things that have actual impact
 1. Avoid branch naming requirements
     1. It’s not meaningful to be failed/rejected for a branch name as it doesn’t improve what you actually ship
     1. There are enough ways to fail, e.g., unit tests, linting, etc. you don’t need to add another failure point
-    1. If the branch includes an issue number or description, then when something changes the title and the branch name need to change because there are multiple sources of truth -- If the branch intent pivots you need to rename the branch to something more meaningful and open up a new PR, oi!
+    1. If the branch includes an issue number or description, then when something changes the title and the branch name needs to change because there are multiple sources of truth -- e.g., If the branch intent pivots you need to rename the branch to something more meaningful and open up a new PR, oi!
 1. You shouldn’t think about branch names, it’s not a valuable use of time and energy, focus on the code
 1. Your collegues shouldn’t care what the branch is named as nobody should be looking at branch name as a source of truth
 1. This precludes potential optimizations like the following git scripts that significantly improved my workflows -- https://github.com/kirkstrobeck/stash/tree/main/scripts/git -- Specifically, I can just say `new-feature-branch` and it will create a new branch based on latest main called `feature-[current timestamp]`
