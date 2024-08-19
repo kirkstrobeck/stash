@@ -14,7 +14,7 @@ For us to be effective, we must focus on the things that have actual impact
 
 Additionally, nearly every one of my commits, as I got better at coding, was just "progress". Because commit messages don’t matter either, they’re just squashed and bye. I realized I had to take time, stop, think, and summarize my work every time I wanted to commit -- All of which adds zero value to the end user -- It also introduces pain that I want to avoid, which meant fewer commits and a more dangerous working state -- Better to bias for saving work -- When was the last time you saved a Word, Excel, etc. doc and had to think about what to write before you could save your doc? It’s not a thing, it’s just "Save", that’s great!
 
-What are the things that do matter?
+## What are the things that do matter?
 
 1. The code
 1. Passing checks
