@@ -1,0 +1,7 @@
+- Never use `else` or `else if`
+- Make booleans optional
+- Defer to defaults where possible
+- Avoid arity, prefer an object literal parameter
+- Avoid `as` and `any`, TS must be strict
+- Never mutate, including no `let` or `push`
+- Never use `null`
