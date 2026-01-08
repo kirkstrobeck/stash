@@ -1,7 +1,12 @@
+- Code, types, overall implementation must be highly strict
 - Never use `else` or `else if`
 - Make booleans optional
 - Defer to defaults where possible
 - Avoid arity, prefer an object literal parameter
-- Avoid `as` and `any`, TS must be strict
-- Never mutate, including no `let` or `push`
+- Never mutate
 - Never use `null`
+- Files must not exceed 150 lines
+- Every file must be stand-alone and authoritative
+- Avoid classes and complexity
+- TS-specific: Never use `enum`. Avoid `as` and `any`
+- JS/TS-specific: Never use `let` or `push`
