@@ -8,6 +8,6 @@
 - Code files must not exceed 150 lines
 - Every file must be stand-alone and authoritative
 - Avoid classes and complexity
-- Any UI must run at 60 FPS or greater
+- All UI must run at 60 FPS or greater
 - TS-specific: Never use `enum`. Avoid `as` and `any`
 - JS/TS-specific: Never use `let` or `push`
