@@ -1,4 +1,4 @@
-- Code, types, overall implementation must be highly strict
+- Code, types, all implementation must be highly strict
 - Never use `else` or `else if`
 - Make booleans optional
 - Defer to defaults where possible
