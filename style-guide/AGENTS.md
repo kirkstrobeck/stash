@@ -16,3 +16,4 @@
 - Never use `null`
 - Prefer defaults
 - Prefer other values over booleans, like timestamps
+- Tests must run identically across all environments, no env-specific logic
