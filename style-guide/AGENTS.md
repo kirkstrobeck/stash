@@ -1,4 +1,4 @@
-// https://github.com/kirkstrobeck/stash/edit/main/style-guide/AGENTS.md
+# https://github.com/kirkstrobeck/stash/edit/main/style-guide/AGENTS.md
 
 - Code, types, all implementation must be highly strict
 - Never use `else` or `else if`
