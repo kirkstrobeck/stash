@@ -1,5 +1,7 @@
 <!--https://github.com/kirkstrobeck/stash/edit/main/style-guide/AGENTS.md-->
 
+Programatically enforce these rules with eslint or similar
+
 - All UI must run at 60 FPS or greater
 - Avoid `as` and `any`
 - Avoid arity, prefer an object literal parameter
