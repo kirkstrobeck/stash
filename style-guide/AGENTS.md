@@ -1,4 +1,4 @@
-<!--https://github.com/kirkstrobeck/stash/edit/main/style-guide/AGENTS.md-->
+<!-- https://github.com/kirkstrobeck/stash/edit/main/style-guide/AGENTS.md -->
 
 Programatically enforce available rules with eslint or similar (CI too)
 
