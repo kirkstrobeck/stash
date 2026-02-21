@@ -21,3 +21,4 @@ Programatically enforce available rules with eslint or similar (CI too)
 - Tests must run identically across all environments, no env-specific logic
 - Strictly require ENVs, no fallback or defaults
 - Never warn, only error
+- Be extremely effecient with token usage
