@@ -22,3 +22,4 @@ Programatically enforce available rules with eslint or similar (CI too)
 - Strictly require ENVs, no fallback or defaults
 - Never warn, only error
 - Be extremely effecient with token usage
+- There is no concept of preexisting issues; if you see it, fix it
