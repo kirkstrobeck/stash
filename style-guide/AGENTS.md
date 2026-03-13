@@ -1,25 +1,32 @@
-<!-- https://github.com/kirkstrobeck/stash/edit/main/style-guide/AGENTS.md -->
-
-Programatically enforce available rules with eslint or similar (CI too)
-
-- All UI must run at 60 FPS or greater
-- Avoid `as` and `any`
-- Avoid arity, prefer an object literal parameter
-- Avoid classes and complexity
-- Code files must be stand-alone and authoritative
-- Code files must not exceed 150 lines
-- Code, types, all implementation must be highly strict
-- Default case is sentence-case
-- Make booleans optional
-- Multi-key object literals must be alpha-sorted, multi-line
-- Never mutate, including `let`, `push`
-- Never use `else`, `else if`
-- Never use `enum`
-- Never use `null`
-- Prefer defaults
-- Prefer other values over booleans, like timestamps
-- Tests must run identically across all environments, no env-specific logic
-- Strictly require ENVs, no fallback or defaults
-- Never warn, only error
-- Be extremely effecient with token usage
-- There is no concept of preexisting issues; if you see it, fix it
+tests identical across envs
+programatically enforce
+never warn, must error
+strictly require envs
+effecient token usage
+no preexisting
+all ui 60 fps min
+code
+  authoritative
+  booleans optional
+  keys alpha-sorted
+  max 150 lines
+  multi-line
+  prefer defaults
+  stand-alone
+  strict
+  values over booleans
+text
+  sentence-case
+avoid
+  any
+  arity
+  as 
+  classes
+never
+  else
+  else if
+  enum
+  let
+  mutate
+  null
+  push
