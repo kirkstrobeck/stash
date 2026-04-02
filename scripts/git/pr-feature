@@ -57,7 +57,7 @@ fi
 echo "$error_message"
 
 if [ "$auto_merge" = true ]; then
-  gh pr merge --auto --merge
+  gh pr merge --auto --squash
 fi
 
 gh pr view --web
