@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Like new-feature-branch, but never checks out the local default branch.
+# Use when that branch is already locked by another worktree, e.g.:
+#   fatal: 'deploy/staging' is already used by worktree at '...'
+
+DEFAULT_BRANCH=$(get-default-branch)
+
+git fetch origin && \
+git checkout -b "feature-$(date +%s)" "origin/$DEFAULT_BRANCH"
