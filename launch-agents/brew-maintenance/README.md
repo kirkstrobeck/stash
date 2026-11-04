@@ -11,7 +11,7 @@ Follow https://raw.githubusercontent.com/kirkstrobeck/stash/main/launch-agents/b
 
 ---
 
-## For the agent
+## 🛑 Humans can stop reading here. Everything below is for your agent.
 
 Install a launchd job running `brew update && brew upgrade && brew cleanup` ~twice
 a day, optionally only on the user's home network. Follow in order; always verify.
