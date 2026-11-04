@@ -19,9 +19,8 @@ Follow these steps in order. Do not skip verification.
 ### 1. Check prerequisites
 
 - macOS only. Confirm with `uname -s` → `Darwin`.
-- Find brew: `command -v brew`. Call the absolute path `BREW_PATH`
-  (usually `/opt/homebrew/bin/brew` on Apple Silicon, `/usr/local/bin/brew` on Intel).
-  If brew is missing, stop and tell the user to install Homebrew first.
+- `BREW_PATH` = absolute output of `command -v brew` (`/opt/homebrew/bin/brew` or
+  `/usr/local/bin/brew`). If missing, stop and tell the user to install Homebrew.
 
 ### 2. Ask the user one question
 
@@ -44,9 +43,7 @@ and `__ROUTER_MAC__` with the values from steps 1–2. Then `chmod +x` it.
 
 ```zsh
 #!/bin/zsh
-# Homebrew maintenance, run by launchd. Installed from
-# github.com/kirkstrobeck/stash/launch-agents/brew-maintenance
-#
+# Homebrew maintenance, run by launchd. Source: github.com/kirkstrobeck/stash
 # Self-throttles to once per MIN_GAP_HOURS via a last-success stamp, so the
 # hourly launchd poll yields ~twice-daily runs and catches up after sleep.
 # If ROUTER_MAC is set, runs only when the default gateway has that MAC.
