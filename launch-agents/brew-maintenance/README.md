@@ -1,10 +1,9 @@
 # brew-maintenance
 
-Keeps Homebrew updated on your Mac automatically, twice a day.
-Paste this into your coding agent (Claude Code, Codex, etc.):
+Auto-updates Homebrew twice a day. Copy this into your agent:
 
 ```
-Install https://github.com/kirkstrobeck/stash/blob/main/launch-agents/brew-maintenance/README.md
+Follow https://raw.githubusercontent.com/kirkstrobeck/stash/main/launch-agents/brew-maintenance/README.md to install brew-maintenance on my Mac.
 ```
 
 ---
