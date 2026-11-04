@@ -1,19 +1,18 @@
 # brew-maintenance
 
-Keeps Homebrew up to date on a Mac automatically: `brew update`, `brew upgrade`,
-`brew cleanup`, about twice a day, optionally only on your home network.
+Keeps Homebrew updated on your Mac automatically, twice a day.
+Paste this into your coding agent (Claude Code, Codex, etc.):
 
-## Usage (for humans)
+```
+Install https://github.com/kirkstrobeck/stash/blob/main/launch-agents/brew-maintenance/README.md
+```
 
-Point a coding agent (Claude Code, Codex, etc.) at this file:
+---
 
-> Install the launch agent described in
-> https://github.com/kirkstrobeck/stash/blob/main/launch-agents/brew-maintenance/README.md
+## For the agent
 
-It will ask you one question (home-network only, or anywhere) and do the rest.
-
-## Instructions (for the agent)
-
+Install a launchd job that runs `brew update && brew upgrade && brew cleanup`
+about twice a day, optionally only on the user's home network.
 Follow these steps in order. Do not skip verification.
 
 ### 1. Check prerequisites
